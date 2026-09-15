@@ -8,3 +8,10 @@ your-repo/
     ├── run_coverage.bat
     ├── samples/
     └── tests/
+
+cd /d/code/SE-personal-project
+git add .
+git commit -m "基本功能：N-gram + 余弦相似度查重，含单元测试"
+git branch -M main
+git remote add origin https://github.com/你的用户名/SE-personal-project.git
+git push -u origin main
